@@ -1,0 +1,22 @@
+{
+  "name": "@marcomessa/toggler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcomessa/toggler.git"
+  },
+  "keywords": [
+    "toggler"
+  ],
+  "author": "Marco Messa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcomessa/toggler/issues"
+  },
+  "homepage": "https://github.com/marcomessa/toggler#readme"
+}
