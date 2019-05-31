@@ -5,7 +5,7 @@ class Toggler {
 
     init() {
         this.itemsToToggle = document.querySelectorAll('[data-toggle]');
-        
+
         this.addEvents(this.itemsToToggle);
     }
 
@@ -15,7 +15,7 @@ class Toggler {
                 const ids = item.dataset.toggle.split(" ");
                 ids.forEach(id => {
                     const el = document.getElementById(id);
-                    const classes = item.dataset.toggler.split(" ")
+                    const classes = el.dataset.toggler.split(" ")
                     classes.forEach( className => {
                         el.classList.toggle(className)
                     })
